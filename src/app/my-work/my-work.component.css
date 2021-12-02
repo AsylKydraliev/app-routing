@@ -1,0 +1,23 @@
+.container{
+  text-align: center;
+  background: #f1f1f1;
+}
+
+h2{
+  margin: 0;
+  padding-top: 30px;
+}
+
+.row{
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.half{
+  width: 50%;
+}
+
+p{
+  font-size: 20px;
+}

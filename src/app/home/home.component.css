@@ -1,0 +1,33 @@
+.container{
+  background: #000;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  text-align: center;
+}
+
+.logo{
+  font-size: 35px;
+  margin-bottom: 100px;
+}
+
+h1{
+  margin: 0;
+}
+
+.list{
+  padding-bottom: 130px;
+}
+
+.link{
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 16px;
+}
+
+.link:hover{
+  background: #607d8b;
+}
