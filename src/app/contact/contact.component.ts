@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
-export class ContactComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
+export class ContactComponent {
+  constructor(private router: Router) {
   }
 
+  continue(event: Event){
+    event.preventDefault();
+    void this.router.navigate(['/numberInfo'])
+  }
 }

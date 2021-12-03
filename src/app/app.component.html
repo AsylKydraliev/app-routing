@@ -1,10 +1,6 @@
 <div class="home">
-  <app-toolbar (navigate)="onNavigate($event)"></app-toolbar>
+  <app-toolbar></app-toolbar>
 </div>
 <div class="container">
-  <app-home *ngIf="location === 'home'"></app-home>
-  <app-about-me *ngIf="location === 'about-me'"></app-about-me>
-  <app-my-work *ngIf="location === 'my-work'"></app-my-work>
-  <app-resume *ngIf="location === 'resume'"></app-resume>
-  <app-contact *ngIf="location === 'contact'"></app-contact>
+  <router-outlet></router-outlet>
 </div>

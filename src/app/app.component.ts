@@ -5,10 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  location = 'home';
-
-  onNavigate(where: string) {
-    this.location = where;
-  }
-}
+export class AppComponent {}

@@ -1,9 +1,9 @@
 <nav class="navbar">
   <div class="list">
-    <a href="/" class="link" (click)="onNavClick('home')">Home</a>
-    <a href="#" class="link" (click)="onNavClick('about-me')">About me</a>
-    <a href="#" class="link" (click)="onNavClick('my-work')">My Work</a>
-    <a href="#" class="link" (click)="onNavClick('resume')">Resume</a>
-    <a href="#" class="link" (click)="onNavClick('contact')">Contact</a>
+    <a routerLink="/" class="link" routerLinkActive="linkFocus" [routerLinkActiveOptions]="{exact: true}">Home</a>
+    <a routerLink="about-me" class="link" routerLinkActive="linkFocus">About me</a>
+    <a routerLink="my-work" class="link" routerLinkActive="linkFocus">My Work</a>
+    <a routerLink="resume" class="link" routerLinkActive="linkFocus">Resume</a>
+    <a routerLink="contact" class="link" routerLinkActive="linkFocus">Contact</a>
   </div>
 </nav>

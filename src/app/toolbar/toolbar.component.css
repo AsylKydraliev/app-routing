@@ -31,7 +31,7 @@ h1{
   color: #607d8b;
 }
 
-.link:focus{
+.linkFocus{
   border-bottom: 2px solid #607d8b;
   color: #607d8b;
 }
