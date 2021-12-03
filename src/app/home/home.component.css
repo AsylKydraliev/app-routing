@@ -1,33 +1,25 @@
 .container{
-  background: #000;
-  width: 100%;
-  height: auto;
-  color: #fff;
   text-align: center;
+  position: relative;
 }
 
-.logo{
-  font-size: 35px;
-  margin-bottom: 100px;
+.title{
+  background: #616161;
+  padding: 15px 0;
 }
 
 h1{
   margin: 0;
-}
-
-.list{
-  padding-bottom: 130px;
-}
-
-.link{
-  font-size: 20px;
-  display: block;
-  text-decoration: none;
   color: #fff;
-  margin-bottom: 20px;
-  padding: 16px;
 }
 
-.link:hover{
-  background: #607d8b;
+.text{
+  padding: 10px 15px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
 }

@@ -6,4 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  location = 'home';
+
+  onNavigate(where: string) {
+    this.location = where;
+  }
 }
